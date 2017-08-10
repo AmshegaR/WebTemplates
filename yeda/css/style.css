@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'open_sans_hebrewregular';
+    src: url('opensanshebrew-regular-webfont.woff2') format('woff2'),
+         url('opensanshebrew-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+.userLine {
+    margin: 20px;
+    font-weight: bold;
+}
+
+a.importMSG{
+    color: #DE0702;
+}
+
+.clientTitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.clientTitle p {
+    margin-bottom: 10px;
+}
+
+.search {
+    border-radius: 4px;
+    border: 1px solid #888; 
+    box-shadow: 0 -1px 8px 0 rgba(0,0,0,0.2),0 0px 10px 0 rgba(0,0,0,0.19); 
+    padding: 5px;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    direction: ltr;
+    background-color: #ffffff;
+}
+
+ul.client{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.client li{
+    border-bottom: 1px solid #888; 
+    padding: 2px;
+    display: block;
+}
+
+.post{
+    border-radius: 4px;
+    border: 1px solid #888; 
+    margin: 20px 0;
+    box-shadow: 0 -1px 8px 0 rgba(0,0,0,0.2),0 0px 10px 0 rgba(0,0,0,0.19);
+}
+
+.resultTitle{
+    font-weight: bold;
+}
+
+.postHeader{
+    text-align: center;
+}
+
+.postHeader, .postFooter {
+    background-color: #5CB85C;
+    color: #ffffff;
+}
+
+.postBody{
+    padding: 10px 12px;
+}
+
+.postBody p {
+    margin: 0;
+}
+
+
+.postFooter h6, .postHeader h5 {
+    margin: 0;
+    padding: 5px;
+}
+
+.postBody {
+    background-color: #ffffff;
+}
+
+.editPost, .opentPost {
+    float: left;
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
